@@ -19,60 +19,45 @@
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 </head>
-
 <body>
     <!-- Preloader -->
     <div class="preloader"></div>
-
+	
 	<!-- Main Header / Header Style Two -->
-    <header class="main-header header-style-two">  
+    <header class="main-header header-style-two">        
         <!-- Header Upper -->
         <div class="header-upper">
-            <div class="outer-container clearfix">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-6">
-							<div class="logo">
-								<a href="index.html"><img src="img/casobe-logo.png" class="img-fluid" alt="" title=""></a>
+            <div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-3">
+						<div class="logo"><a href="index.html"><img src="img/casobe-logo.png" class="img-fluid" alt="" title=""></a></div>
+					</div>
+					<div class="col-md-9">
+						<!--Mobile Navigation Toggler For Mobile-->
+						<div class="mobile-nav-toggler for-mobile"><span class="icon flaticon-menu-1"></span></div>
+						<nav class="main-menu navbar-expand-md navbar-light">
+							<div class="navbar-header">
+								<!-- Toggle Button -->      
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon flaticon-menu-1"></span>
+								</button>
 							</div>
-						</div>
+
+							<div class="collapse navbar-collapse clearfix justify-content-end" id="navbar">
+								<ul class="navigation clearfix menu">
+									<li class="menu-item active"><a href="index.html">Home</a></li>
+									<li class="menu-item"><a href="properties.html">Properties</a></li>
+									<li class="menu-item"><a href="attractions.html">Attractions</a></li>
+									<li class="menu-item"><a href="privilege-card.html">Privilege Card</a></li> 
+									<li class="menu-item"><a href="news.html">News</a></li>
+									<li class="menu-item"><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</nav>
+						<!-- Main Menu End-->
 					</div>
 				</div>
-
-				<!--Nav Box-->
-				<div class="nav-outer clearfix">
-					<!--Mobile Navigation Toggler For Mobile-->
-					<div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
-					<nav class="main-menu navbar-expand-md navbar-light">
-						<div class="navbar-header">
-							<!-- Toggle Button -->      
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="icon flaticon-menu-1"></span>
-							</button>
-						</div>
-						
-						<div class="collapse navbar-collapse clearfix" id="navbar">
-							<ul class="navigation clearfix menu">
-								<li class="active"><a href="index.html">Home</a></li>
-								<li class="menu-item"><a href="property.html">Property</a></li>
-								<li class="menu-item"><a href="attractions.html">Attractions</a></li>
-            					<li class="menu-item menu-parent">
-									<a href="privilege-card.html">Privilege Card</a>
-									<ul class="submenu">
-										<li class="submenu-item"><a href="restaurant-and-bars.html">Restaurant and Bars</a></li>
-										<li class="submenu-item"><a href="spa-and-wellness.html">Spa and Wellness</a></li>
-										<li class="submenu-item"><a href="tours.html">Tours</a></li>
-									</ul>
-								</li> 
-            					<li class="menu-item"><a href="mpa.html">Map</a></li>
-            					<li class="menu-item"><a href="news.html">News</a></li>
-                                <li class="menu-item"><a href="contact.html">Contact</a></li>
-							</ul>
-						</div>
-					</nav>
-					<!-- Main Menu End-->
-				</div>
-			</div>
+			</div>            
         </div>
         <!--End Header Upper-->
 
@@ -96,6 +81,7 @@
                 </div>
             </nav>
         </div><!-- End Mobile Menu -->
+
     </header>
     <!-- End Main Header -->
 
@@ -103,29 +89,30 @@
     <section class="slider">
     	<div class="container height-100">
     		<div class="row height-100 justify-content-center align-items-center">
-		    	<div class="col-md-7 text-center">
-		    		<h2>Destination worthy of every bucket list</h2>
+		    	<div class="col-md-8 text-center">
+		    		<h2 class="mb-4">Destination worthy of every bucket list</h2>
+					<div class="property-search">
+						<form>
+							<div class="row jusitfy-content-center">
+								<div class="col-md-9">
+									<select class="selectpicker">
+										<option>Property Type</option>
+										<option>Retail Road</option>
+										<option>Harbor Walk</option>
+										<option>Activity Block</option>
+									</select>
+								</div>
+								<div class="col-md-3">
+									<a href="#" type="button" class="theme-btn btn-style-dark"><span class="txt">Search</span></a>
+								</div>
+							</div>
+						</form>
+					</div>
     			</div>
     		</div>
         </div>
-		<!--div class="hero-scroll-to-view">Scroll to view</div-->
-		<div class="property-search">
-			<form>
-				<div class="row jusitfy-content-center">
-					<div class="col-md-9">
-						<select class="selectpicker">
-							<option>Property Type</option>
-							<option>Retail Road</option>
-							<option>Harbor Walk</option>
-							<option>Activity Block</option>
-						</select>
-					</div>
-					<div class="col-md-3">
-						<a href="#" type="button" class="theme-btn btn-style-dark"><span class="txt">Search</span></a>
-					</div>
-				</div>
-			</form>
-		</div>
+		<div class="hero-scroll-to-view">Scroll to view</div>
+		
 		<div class="overlay overlay-50 overlay-gradient-dark"></div>
 		<div class="overlay overlay-25 overlay-fill-dark"></div>
     </section>
@@ -149,160 +136,163 @@
 		</section>
 		<!-- End Casobe: Discover New Frontiers Page Section -->
 		
-		<!-- Casobe: Explore Projects Page Section -->
-		<section class="page-section section-attractions pt-5 pb-5">
-			<div class="auto-container">
-				<div class="row clearfix">
-					<div class="col-md-12">
-						<h2 class="heading-title-pt">Attractions</h2>
-						<p class="heading-desc-pt">Something that is rare, beautiful, timeless and crafted on a commitment to excellence, innovation, passion and respect.</p>
-					</div>
-				</div>
-
-				<div class="row clearfix">
-					<div class="col-md-6 mt-5">
-						<!-- Owl Carousel Initialize -->
-						<div class="carousel" data-flickity='{ "pageDots": false, "contain": true }'>
-					 		<img src="img/slides/millenial-1.jpg" class="img-fluid" alt="img" />
-					 		<img src="img/slides/millenial-2.png" class="img-fluid" alt="img" />
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="card card-explore-projects">
-							<div class="card-body">
-								<h2 class="heading-title-sm">Millennial Resorts</h2>
-								<p class="heading-desc">Explore experiences we created in Casobe just for you</p>
-
-								<div class="grid-column-3 justify-items">
-									<img src="img/Crusoe%20Cabins_Palm%20Trees_Logo%201.png" alt="img">
-									<img src="img/Cocoons%202.png" class="mt-4" alt="img">
-									<img src="img/The%20Colony%202.png" class="mt-4" alt="img">
-
-									<img src="img/145320545504118800%201.png" alt="img">
-									<img src="img/Aqua%20Logo%202.png" alt="img">
-									<img src="img/Canopy_Logo_PNG%202.png" alt="img">
-								</div>
-
-								<a href="projects.html" type="button" class="theme-btn btn-style-dark mt-5"><span class="txt">Learn More</span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Casobe: Explore Projects Page Section -->
-
-		<!-- Casobe: Explore Projects Page Section -->
-		<section class="page-section section-destinations">
-			<div class="auto-container">
-				<div class="row clearfix mb-5 justify-content-center">
-					<div class="col-md-7 text-center">
-						<h2 class="heading-title-pt">Lifestyle</h2>
-						<p class="heading-desc-pt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud.</p>
-					</div>
-				</div>
-				<div class="row clearfix align-items-center flex-row-reverse">
-					<div class="col-md-7">
-						<div class="position-relative">							
-							<!-- Owl Carousel Initialize -->
-							<div class="carousel" data-flickity='{ "pageDots": false, "contain": true }'>
-								<img src="img/projects/img-cocoon.png" class="img-fluid" alt="Canopy" />
-								<img src="img/projects/img-cocoon.png" class="img-fluid" alt="Canopy" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-5">
-						<div class="card">
-							<div class="card-body">
-								<h2 class="heading-title-sm">Lifestyle</h2>
-								<p class="heading-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-								<a href="#" type="button" class="theme-btn btn-style-dark mt-5"><span class="txt">Read More</span></a>
-								<img src="img/logos/logo-cocoons.png" class="card-watermark" alt="" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Casobe: Explore Projects Page Section -->
 		
 		<!-- Tourism -->
 		<section class="page-section section-tourism">
-			<div class="container mb-5">
+			<div class="container mb-2">
 				<div class="row clearfi align-items-end">
 					<div class="col-md-6">
-						<h2 class="heading-title-pt">Tourism</h2>
+						<h2 class="heading-title-pt">Attraction</h2>
 						<p class="heading-desc">Discover local hangouts, eateries, and other things to get the most out of your trip to Casobe</p>
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+							  <a class="nav-link active" id="inside-tab" data-toggle="tab" href="#inside" role="tab" aria-controls="inside" aria-selected="true">Inside Attractions</a> 
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" id="outside-tab" data-toggle="tab" href="#outside" role="tab" aria-controls="outside" aria-selected="false">Outside Attractions</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
+		
+			<!-- content -->
 			<div class="container-fluid">
 				<div class="row clearfix align-items-center">
 					<div class="col-md-12">
-						<div class="tourism-items">
-							<div class="card" style="background-image: url(img/tourism/tourism-1.jpg);">
-								<div class="card-details">
-									<h4>Lighthouse Tower</h4>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-									<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">Read More</span></a>
+						<!-- tab content -->	
+						<div class="tab-content" id="myTabContent">
+							<!-- tab 1 -->
+							<div class="tab-pane fade show active" id="inside" role="tabpanel" aria-labelledby="inside-tab">
+								<div class="tourism-inside">
+									<div class="card slick-current" style="background-image: url(img/attraction/img-little-boracay.jpg);">
+										<div class="card-details">
+											<h4>Little Boracay Calatagan</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-lubang-island.jpg);">
+										<div class="card-details">
+											<h4>Lubang Island</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-cape-santiago.jpg);">
+										<div class="card-details">
+											<h4>Cape Santiago</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-underwater-pyramid.jpg);">
+										<div class="card-details">
+											<h4>Underwater Pyramid</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-punta-baluarte.jpg);">
+										<div class="card-details">
+											<h4>Punta Baluarte</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-aquaria-waterpark.jpg);">
+										<div class="card-details">
+											<h4>Aquaria Waterpark</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-starfish-island.jpg);">
+										<div class="card-details">
+											<h4>Starfish Island</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-crusoe-cabins.jpg);">
+										<div class="card-details">
+											<h4>Crusoe Cabins</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-lago-de-oro.jpg);">
+										<div class="card-details">
+											<h4>Lago de Oro</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="card" style="background-image: url(img/tourism/tourism-2.jpg);">
-								<div class="card-details">
-									<h4>Lighthouse Tower</h4>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-									<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">Read More</span></a>
+							<!-- end of tab 1 -->
+
+							<!-- tab 2 -->
+							<div class="tab-pane fade" id="outside" role="tabpanel" aria-labelledby="outside-tab">
+								<div class="tourism-outside">
+									<div class="card slick-current" style="background-image: url(img/attraction/img-little-boracay.jpg);">
+										<div class="card-details">
+											<h4>Little Boracay Calatagan</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-lubang-island.jpg);">
+										<div class="card-details">
+											<h4>Lubang Island</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-cape-santiago.jpg);">
+										<div class="card-details">
+											<h4>Cape Santiago</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-underwater-pyramid.jpg);">
+										<div class="card-details">
+											<h4>Underwater Pyramid</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-punta-baluarte.jpg);">
+										<div class="card-details">
+											<h4>Punta Baluarte</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-aquaria-waterpark.jpg);">
+										<div class="card-details">
+											<h4>Aquaria Waterpark</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-starfish-island.jpg);">
+										<div class="card-details">
+											<h4>Starfish Island</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-crusoe-cabins.jpg);">
+										<div class="card-details">
+											<h4>Crusoe Cabins</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
+									<div class="card" style="background-image: url(img/attraction/img-lago-de-oro.jpg);">
+										<div class="card-details">
+											<h4>Lago de Oro</h4>
+											<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="card" style="background-image: url(img/tourism/tourism-3.jpg);">
-								<div class="card-details">
-									<h4>Lighthouse Tower</h4>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-									<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">Read More</span></a>
-								</div>
-							</div>
-							<div class="card" style="background-image: url(img/tourism/tourism-4.jpg);">
-								<div class="card-details">
-									<h4>Lighthouse Tower</h4>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-									<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">Read More</span></a>
-								</div>
-							</div>
-							<div class="card" style="background-image: url(img/tourism/tourism-1.jpg);">
-								<div class="card-details">
-									<h4>Lighthouse Tower</h4>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-									<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">Read More</span></a>
-								</div>
-							</div>
-							<div class="card" style="background-image: url(img/tourism/tourism-2.jpg);">
-								<div class="card-details">
-									<h4>Lighthouse Tower</h4>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-									<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">Read More</span></a>
-								</div>
-							</div>
-							<div class="card" style="background-image: url(img/tourism/tourism-3.jpg);">
-								<div class="card-details">
-									<h4>Lighthouse Tower</h4>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-									<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">Read More</span></a>
-								</div>
-							</div>
-							<div class="card" style="background-image: url(img/tourism/tourism-4.jpg);">
-								<div class="card-details">
-									<h4>Lighthouse Tower</h4>
-									<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-									<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">Read More</span></a>
-								</div>
-							</div>
+							<!-- end of tab 2 -->
 						</div>
+						<!-- ends tab content -->
 					</div>
 				</div>
 			</div>
+			<!-- end of content -->
 		</section>
 		<!-- /Tourism -->
+		
+		
 
 		<!-- Casobe: Amazing Location Page Section -->
 		<section class="call-to-action-section" style="background-image: url(img/home/amazing-location.jpg); background-repeat: no-repeat;">
@@ -463,11 +453,13 @@
 												<ul class="list list-flex">
 		                                        	<li><a href="index.html">Home</a></li>
 		                                        	<li class="line">|</li>
-		                                            <li><a href="about.html">About</a></li>
+		                                            <li><a href="properties.html">Properties</a></li>
 		                                            <li class="line">|</li>
-		                                            <li><a href="projects.html">Projects</a></li>
+		                                            <li><a href="attractions.html">Attractions</a></li>
 		                                            <li class="line">|</li>
-		                                            <li><a href="#">Locations</a></li>
+		                                            <li><a href="privilege-card.html">Privilege Card</a></li>
+													 <li class="line">|</li>
+		                                            <li><a href="news.html">News</a></li>													
 		                                            <li class="line">|</li>
 		                                            <li><a href="contact.html">Contact</a></li>
 		                                        </ul>
@@ -557,15 +549,32 @@
             delay: [5000, 5000, 5000]
         });
 		
-		$('.tourism-items').slick({
+		//
+		$('.tourism-inside').slick({
 			infinite: true,
 			autoplay: true,
-			autoplaySpeed: 5000,
+			autoplaySpeed: 3000,
 			slidesToShow: 4,
 			slidesToScroll: 1,
 			centerMode: true,
 			focusOnSelect: true,
-			arrows: false
+			arrows: false,
+			variableWidth: true,
+			pauseOnHover: false
+		});
+		
+		//
+		$('.tourism-outside').slick({
+			infinite: true,
+			autoplay: true,
+			autoplaySpeed: 3000,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			centerMode: true,
+			focusOnSelect: true,
+			arrows: false,
+			variableWidth: true,
+			pauseOnHover: false
 		});
     </script>
 </body>

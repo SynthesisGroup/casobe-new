@@ -1702,3 +1702,25 @@
 	}
 	
 }
+
+/*  */
+
+/* 320  */
+@media (min-width: 320px) {	
+	.for-mobile { display: block; }
+	.for-screen { display: none; }
+}
+
+/* 480  */
+@media (min-width: 480px) {
+}
+
+/* 560  */
+@media (min-width: 560px) {
+}
+
+/* 768 */
+@media (min-width: 768px) {	
+	.for-mobile { display: none; }
+	.for-screen { display: block; }
+}
