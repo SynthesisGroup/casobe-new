@@ -7,6 +7,12 @@ small { font-size: 50%; }
 .container { z-index: 1; }
 .hero-content { margin-top: 150px; }
 
+.lh-1  { line-height: 1em; }
+.lh-12 { line-height: 1.2em; }
+.lh-15 { line-height: 1.5em; }
+.lh-18 { line-height: 1.8em; }
+.lh-2  { line-height: 2em; }
+
 /* Overlays */
 .overlay { position: absolute; height: 100%; width: 100%; top: 0; }
 .overlay.overlay-25 { opacity: 0.25; }
@@ -23,9 +29,6 @@ small { font-size: 50%; }
 .page-section .row,
 .page-title .hero-content { position: relative; z-index: 1; }
 .page-title:before { display: none; }
-
-/* Section: Property */
-.section-property .heading-desc { width: auto; margin-right: 50px; }
 
 .section-site-development-plan { background: #000000; }
 .section-site-development-plan { background-image: url(img/background/bg-casobe-3.jpg); position: relative; }
@@ -45,7 +48,12 @@ small { font-size: 50%; }
 
 /* List: Facts Sheet */
 .list-facts li { margin-bottom: 30px; }
-.list-facts svg { height: 40px; float: left; margin-right: 30px; fill: #1e92a9; }
+.list-facts svg { height: 40px; width: 40px; float: left; margin-right: 30px; fill: #1e92a9; }
+
+/* Section: Property */
+.section-property .heading-desc { width: auto; margin-right: 50px; }
+.section-property .column-left .heading-desc { margin-right: 0; margin-left: 50px; }
+.section-property .column-left .list-facts svg { float: right; margin-right: 0; margin-left: 30px; }
 
 /* Section: Fact Sheets */
 .section-fact-sheets { background-image: url(../img/background/bg-casobe-1.jpg); position: relative; }
@@ -144,14 +152,14 @@ small { font-size: 50%; }
 .property-search select.form-control:not([size]):not([multiple]) { height: auto; }
 .property-search .theme-btn { width: 100%; text-align: center; }
 
-.shaded { background: #eee; }
+.shaded { background: #F7F7F7; }
 .call-to-action-section h2 { line-height: 1em; }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active { background: #000000; color: #ffffff; border-radius: 0; border: 1px solid #000; }
 .nav-tabs .nav-link { border: 1px solid #000; color: #000; border-radius: 0; margin-right: 1em; }
 .nav-tabs { border: 0; }
 
-.pay-maya-steps { background: #eee; }
+.pay-maya-steps { background: #F7F7F7; }
 .pay-maya-steps .steps h5 { background: #000; color: #fff; padding: 0.5em 0.5em; text-align: center; }
 .pay-maya-steps .steps ul { margin: 2em 0 0 1em; }
 .pay-maya-steps .steps ul li { margin-bottom: 1.3em; }
@@ -161,4 +169,4 @@ small { font-size: 50%; }
 
 .pay-maya-info .far, .pay-maya-info .fas { font-size: 4em; }
 .pay-maya-info .steps-note { font-style: italic; color: #000; border:1px solid #000; padding: 1em 1em; margin: 2.5em 0; }
-.pay-maya-info .steps-note p { font-size: 1em;  }
+.pay-maya-info .steps-note p { font-size: 1em; }
