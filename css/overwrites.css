@@ -72,12 +72,17 @@ small { font-size: 50%; }
 .section-destinations .card { padding-right: 0; }
 .section-destinations .card-body { position: relative; overflow: hidden; }
 .section-destinations .card-watermark { position: absolute; bottom: 0; right: 0; opacity: 0.1; display: none; }
-.section-destinations .flex-row-reverse .card { margin-right: -100px; margin-left: 0; }
-.section-destinations .flex-row-reverse .slider-control { left: auto; right: 0; }
 .section-destinations .slider-control { position: absolute; bottom: 0; left: 0; }
 .section-destinations .flickity-button { background-color: #000000 !important; border-radius: 0; }
-.section-destinations .flickity-prev-next-button.previous { left: auto; right: 60px; }
+.section-destinations .flickity-prev-next-button.previous { left: 10px; }
+.section-destinations .flickity-prev-next-button.next { left: 60px; }
 .section-destinations .flickity-prev-next-button { top: auto; bottom: 10px; transform: translateY(0); }
+
+.section-destinations .flex-row-reverse .card { margin-right: -100px; margin-left: 0; }
+.section-destinations .flex-row-reverse .slider-control { left: auto; right: 0; }
+.section-destinations .flex-row-reverse .flickity-prev-next-button.previous { left: auto; right: 60px; }
+.section-destinations .flex-row-reverse .flickity-prev-next-button.next { left: auto; right: 10px; }
+.section-destinations .flex-row-reverse .flickity-prev-next-button { top: auto; bottom: 10px; transform: translateY(0); }
 
 /* Section: Tourism */
 .section-tourism .card { border: 0; border-radius: 0; min-width: 320px; }
