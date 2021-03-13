@@ -169,9 +169,27 @@ small { font-size: 50%; }
 .pay-maya-steps .steps ul { margin: 2em 0 0 1em; }
 .pay-maya-steps .steps ul li { margin-bottom: 1.3em; }
 .pay-maya-steps .steps .fas { font-size: 1.3em; color: #000; margin-right: 0.5em; }
-.pay-maya-steps .steps .steps-note { font-style: italic; color: #000; border:1px solid #000; padding: 1em 1em; margin-bottom: 2.5em; }
+.pay-maya-steps .steps .steps-note { font-style: italic; color: #000; border: 1px solid #000; padding: 1em 1em; margin-bottom: 2.5em; }
 .pay-maya-steps .steps .steps-note p { font-size: 1em;  }
 
 .pay-maya-info .far, .pay-maya-info .fas { font-size: 4em; }
 .pay-maya-info .steps-note { font-style: italic; color: #000; border:1px solid #000; padding: 1em 1em; margin: 2.5em 0; }
 .pay-maya-info .steps-note p { font-size: 1em; }
+
+.list-distance {}
+.list-distance li { position: relative; display: block; margin: 0 0 5px; line-height: 24px; }
+.list-distance li span { display: inline-block; }
+.list-distance li .counter { background-color: #1e92a9; color: #FFFFFF; text-align: center; border-radius: 50%; height: 24px; width: 24px; }
+.list-distance li .barline { height: 1px; border-top: 2px dashed #000000; max-width: 80%; }
+.list-distance li .distance { font-size: 80%; font-weight: bold; letter-spacing: 1px; }
+.list-distance li .distance { background-color: #000000; color: #FFFFFF; border-radius: 5px; padding-left: 4px; padding-right: 4px; }
+
+.accordion .card { border: 0; }
+.accordion .card-header { background-color: transparent; }
+.accordion .card-header h4 { letter-spacing: 1px; }
+.accordion .card-header a { color: #1e92a9; display: flex; justify-content: space-between; }
+.accordion .card-header a {}
+.accordion .card-header a[aria-expanded="true"]  i { transition: ease all 0.3s; transform: rotate(180deg); }
+.accordion .card-header a[aria-expanded="false"] i { transition: ease all 0.3s; transform: rotate(0deg); }
+.accordion .card-header {}
+.accordion .card-body { max-width: 90%; }
