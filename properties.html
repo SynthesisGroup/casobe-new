@@ -27,22 +27,13 @@
     <header class="main-header header-style-two">        
         <!-- Header Upper -->
         <div class="header-upper">
-            <div class="container">
+            <div class="container for-screen">
 				<div class="row align-items-center">
 					<div class="col-md-3">
 						<div class="logo"><a href="index.html"><img src="img/casobe-logo.png" class="img-fluid" alt="" title=""></a></div>
 					</div>
 					<div class="col-md-9">
-						<!--Mobile Navigation Toggler For Mobile-->
-						<div class="mobile-nav-toggler for-mobile"><span class="icon flaticon-menu-1"></span></div>
 						<nav class="main-menu navbar-expand-md navbar-light">
-							<div class="navbar-header">
-								<!-- Toggle Button -->      
-								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-									<span class="icon flaticon-menu-1"></span>
-								</button>
-							</div>
-
 							<div class="collapse navbar-collapse clearfix justify-content-end" id="navbar">
 								<ul class="navigation clearfix menu">
 									<li class="menu-item"><a href="index.html">Home</a></li>
@@ -54,7 +45,16 @@
 								</ul>
 							</div>
 						</nav>
-						<!-- Main Menu End-->
+					</div>
+				</div>
+			</div>
+			<div class="container for-mobile">
+				<div class="row align-items-center">
+					<div class="col-logo">
+						<div class="logo"><a href="index.html"><img src="img/casobe-logo.png" class="img-fluid" alt="" title=""></a></div>
+					</div>
+					<div class="col-menu">
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
 					</div>
 				</div>
 			</div>            
@@ -68,7 +68,15 @@
             
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="img/casobe-logo.png" alt="" title=""></a></div>
-                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+                <ul class="navigation clearfix menu">
+					<li class="menu-item"><a href="index.html">Home</a></li>
+					<li class="menu-item active"><a href="properties.html">Properties</a></li>
+					<li class="menu-item"><a href="attractions.html">Attractions</a></li>
+					<li class="menu-item"><a href="privilege-card.html">Privilege Card</a></li> 
+					<li class="menu-item"><a href="news.html">News</a></li>
+					<li class="menu-item"><a href="contact.html">Contact</a></li>
+				</ul>
+				
 				<!--Social Links-->
 				<div class="social-links">
 					<ul class="clearfix">
@@ -325,7 +333,55 @@
 			</div>
 		</section>
 		<!-- End Casobe: News Page Section -->
-
+		
+		<!-- Site Development Plan Section -->
+		<section class="page-section section-lots-for-clearing">
+			<div class="auto-container">
+				<div class="row clearfix">
+					<div class="col-md-6">
+						<h2 class="heading-title lh-12">Lots for Clearing</h2>
+						<p class="mb-4">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>						
+						<!-- -->
+						<div class="row">
+							<!-- -->
+							<div class="col">
+								<table class="table">
+									<tr>
+										<td><div class="box-lot fill-maroon"></div></td>
+										<td>
+											<ul>
+												<li>Lots to be cleared on site, road traced, and level elevation</li>
+												<li>Needs to put stacking per lot</li>
+												<li>Needs to install Lot Indentifiers per lot</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td><div class="box-lot fill-purple"></div></td>
+										<td>Proposed Condotels</td>
+									</tr>
+									<tr>
+										<td><div class="box-lot fill-ocean"></div></td>
+										<td>Occupied by Millenial Resorts Corp.</td>
+									</tr>
+									<tr>
+										<td><div class="box-lot fill-yellow"></div></td>
+										<td>Landowner's Lots</td>
+									</tr>
+								</table>
+								<p class="mb-4"><strong>Note/s:</strong> The lots occupied by Millenial Resorts Corporation (e.g. Crusoe Cabins, Cocoons) may, at the option of the Developer, construct buildings or sell the same lots to other buyers in the intention of constructing buildings.</p>										
+								<a href="#" type="button" class="theme-btn btn-style-dark mt-4 mb-4"><span class="txt">View Indicative Pricing</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img src="img/maps/map-lots-for-clearing.jpg" class="img-fluid" style="width: 100%;" alt="Lots for Clearing">
+					</div>
+				</div>
+			</div>
+			<div class="overlay-dark" style="opacity: 1;"></div>
+		</section>
+		<!-- /Site Development Plan Section -->
 		
 		<!-- Site Development Plan Section -->
 		<section class="page-section section-approximate-distance shaded">
@@ -402,7 +458,7 @@
 									</li>
 								</ol>
 								
-								<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">View Indicative Pricing</span></a>
+								<a href="#" type="button" class="theme-btn btn-style-dark mt-4 mb-4"><span class="txt">View Indicative Pricing</span></a>
 							</div>
 						</div>
 					</div>
@@ -444,7 +500,7 @@
 									<li><a href="#">CaSoBe's Perimeter Fence</a></li>
 								</ol>
 								
-								<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">View Indicative Pricing</span></a>
+								<a href="#" type="button" class="theme-btn btn-style-dark mt-4 mb-4"><span class="txt">View Indicative Pricing</span></a>
 							</div>
 						</div>
 					</div>
@@ -509,8 +565,7 @@
 					
 					<!--big column-->
                     <div class="big-column col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-                        <div class="row clearfix">
-                        
+                        <div class="row clearfix">                        
                             <!--Footer Column-->
 							<div class="footer-column col-lg-12 col-md-12 col-sm-12 mt-5">
                                 <div class="footer-widget links-widget link-address">
@@ -528,27 +583,42 @@
                                             		(+63 2) 8836 5000 (+63 918) 836 5000
                                             	</a>
                                             </li>
+											<li>
+                                            	<a href="mailto:jbtalle@mvpi.ph">
+                                            		<i class="flaticon-email-1"></i>&nbsp;&nbsp; 
+                                            		jbtalle@mvpi.ph
+                                            	</a>
+                                            </li>
+											<li>
+                                            	<a href="mailto:marketingcommunication@landco.ph">
+                                            		<i class="flaticon-email-2"></i>&nbsp;&nbsp; 
+                                            		marketingcommunication@landco.ph
+                                            	</a>
+                                            </li>
                                         </ul>
                                     </div>
 								</div>
-							</div>
-						
+							</div>						
 						</div>
-					</div>
-					
+					</div>					
 				</div>
 			</div>
 
 			<!--Footer Bottom-->
             <div class="footer-bottom clearfix wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div class="pull-left">
-                    <div class="copyright" style="text-align: center !important;">&copy; 2020 Copyright. Casobe. All rights reserved.</div>
+                    <div class="copyright" style="text-align: center !important;">&copy; 2021 Copyright. Casobe. All rights reserved.</div>
                 </div>
                 <div class="pull-right">
-                    <a href="#" target="__blank"><img src="img/logo-original-light.svg" class="logo-footer-bottom" alt=""></a>
+                    <!--a href="#" target="__blank"><img src="img/logo-original-light.svg" class="logo-footer-bottom" alt=""></a-->
+					<a href="#" target="__blank">
+						<img src="img/logo-mvpi-reverse.png" class="logo-footer-bottom" alt="">
+					</a>
+					<a href="#" target="__blank">
+						<img src="img/logo-metropacific-reverse.png" class="logo-footer-bottom" style="height: 20px;" alt="">
+					</a>
                 </div>
             </div>
-
 		</div>
 	</footer>
 

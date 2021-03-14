@@ -27,22 +27,13 @@
     <header class="main-header header-style-two">        
         <!-- Header Upper -->
         <div class="header-upper">
-            <div class="container">
+            <div class="container for-screen">
 				<div class="row align-items-center">
 					<div class="col-md-3">
 						<div class="logo"><a href="index.html"><img src="img/casobe-logo.png" class="img-fluid" alt="" title=""></a></div>
 					</div>
 					<div class="col-md-9">
-						<!--Mobile Navigation Toggler For Mobile-->
-						<div class="mobile-nav-toggler for-mobile"><span class="icon flaticon-menu-1"></span></div>
 						<nav class="main-menu navbar-expand-md navbar-light">
-							<div class="navbar-header">
-								<!-- Toggle Button -->      
-								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-									<span class="icon flaticon-menu-1"></span>
-								</button>
-							</div>
-
 							<div class="collapse navbar-collapse clearfix justify-content-end" id="navbar">
 								<ul class="navigation clearfix menu">
 									<li class="menu-item"><a href="index.html">Home</a></li>
@@ -54,7 +45,16 @@
 								</ul>
 							</div>
 						</nav>
-						<!-- Main Menu End-->
+					</div>
+				</div>
+			</div>
+			<div class="container for-mobile">
+				<div class="row align-items-center">
+					<div class="col-logo">
+						<div class="logo"><a href="index.html"><img src="img/casobe-logo.png" class="img-fluid" alt="" title=""></a></div>
+					</div>
+					<div class="col-menu">
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
 					</div>
 				</div>
 			</div>            
@@ -68,7 +68,15 @@
             
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="img/casobe-logo.png" alt="" title=""></a></div>
-                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+                <ul class="navigation clearfix menu">
+					<li class="menu-item"><a href="index.html">Home</a></li>
+					<li class="menu-item"><a href="properties.html">Properties</a></li>
+					<li class="menu-item"><a href="attractions.html">Attractions</a></li>
+					<li class="menu-item"><a href="privilege-card.html">Privilege Card</a></li> 
+					<li class="menu-item active"><a href="news.html">News</a></li>
+					<li class="menu-item"><a href="contact.html">Contact</a></li>
+				</ul>
+				
 				<!--Social Links-->
 				<div class="social-links">
 					<ul class="clearfix">
@@ -81,6 +89,7 @@
                 </div>
             </nav>
         </div><!-- End Mobile Menu -->
+
     </header>
     <!-- End Main Header -->
 
@@ -207,7 +216,6 @@
         	<!--Widgets Section-->
             <div class="widgets-section">
             	<div class="row clearfix">
-                	
                     <!--big column-->
                     <div class="big-column col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="row clearfix">
@@ -216,7 +224,7 @@
                             <div class="footer-column col-lg-12 col-md-12 col-sm-12">
                                 <div class="footer-widget logo-widget">
 									<div class="logo" style="max-width: 15rem;">
-                                    	<a href="index-2.html"><img src="img/casobe-logo-white-footer.png" alt="" /></a>
+                                    	<a href="index.html"><img src="img/casobe-logo-white-footer.png" alt="" /></a>
                                     </div>
 
                                     <!--Footer Column-->
@@ -224,13 +232,15 @@
 		                                <div class="footer-widget links-widget">
 											<div class="widget-content">
 												<ul class="list list-flex">
-		                                        	<li><a href="index-2.html">Home</a></li>
+		                                        	<li><a href="index.html">Home</a></li>
 		                                        	<li class="line">|</li>
-		                                            <li><a href="about.html">About</a></li>
+		                                            <li><a href="properties.html">Properties</a></li>
 		                                            <li class="line">|</li>
-		                                            <li><a href="projects.html">Projects</a></li>
+		                                            <li><a href="attractions.html">Attractions</a></li>
 		                                            <li class="line">|</li>
-		                                            <li><a href="#">Locations</a></li>
+		                                            <li><a href="privilege-card.html">Privilege Card</a></li>
+													 <li class="line">|</li>
+		                                            <li><a href="news.html">News</a></li>													
 		                                            <li class="line">|</li>
 		                                            <li><a href="contact.html">Contact</a></li>
 		                                        </ul>
@@ -246,15 +256,12 @@
                                     </ul>
 								</div>
 							</div>
-						
 						</div>
 					</div>
 					
-					
 					<!--big column-->
                     <div class="big-column col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-                        <div class="row clearfix">
-                        
+                        <div class="row clearfix">                        
                             <!--Footer Column-->
 							<div class="footer-column col-lg-12 col-md-12 col-sm-12 mt-5">
                                 <div class="footer-widget links-widget link-address">
@@ -272,30 +279,45 @@
                                             		(+63 2) 8836 5000 (+63 918) 836 5000
                                             	</a>
                                             </li>
+											<li>
+                                            	<a href="mailto:jbtalle@mvpi.ph">
+                                            		<i class="flaticon-email-1"></i>&nbsp;&nbsp; 
+                                            		jbtalle@mvpi.ph
+                                            	</a>
+                                            </li>
+											<li>
+                                            	<a href="mailto:marketingcommunication@landco.ph">
+                                            		<i class="flaticon-email-2"></i>&nbsp;&nbsp; 
+                                            		marketingcommunication@landco.ph
+                                            	</a>
+                                            </li>
                                         </ul>
                                     </div>
 								</div>
-							</div>
-						
+							</div>						
 						</div>
-					</div>
-					
+					</div>					
 				</div>
 			</div>
 
 			<!--Footer Bottom-->
             <div class="footer-bottom clearfix wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div class="pull-left">
-                    <div class="copyright" style="text-align: center !important;">&copy; 2020 Copyright. Casobe. All rights reserved.</div>
+                    <div class="copyright" style="text-align: center !important;">&copy; 2021 Copyright. Casobe. All rights reserved.</div>
                 </div>
                 <div class="pull-right">
-                    <a href="#" target="__blank"><img src="img/logo-original-light.svg" class="logo-footer-bottom" alt=""></a>
+                    <!--a href="#" target="__blank"><img src="img/logo-original-light.svg" class="logo-footer-bottom" alt=""></a-->
+					<a href="#" target="__blank">
+						<img src="img/logo-mvpi-reverse.png" class="logo-footer-bottom" alt="">
+					</a>
+					<a href="#" target="__blank">
+						<img src="img/logo-metropacific-reverse.png" class="logo-footer-bottom" style="height: 20px;" alt="">
+					</a>
                 </div>
             </div>
-
 		</div>
 	</footer>
-
+	
 	<!--Scroll to top-->
 	<div class="scroll-to-top scroll-to-target" data-target="html"><i class="flaticon-up-arrow"></i></div>
 	<!--Scroll to top-->

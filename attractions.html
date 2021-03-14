@@ -27,22 +27,13 @@
     <header class="main-header header-style-two">        
         <!-- Header Upper -->
         <div class="header-upper">
-            <div class="container">
+            <div class="container for-screen">
 				<div class="row align-items-center">
 					<div class="col-md-3">
 						<div class="logo"><a href="index.html"><img src="img/casobe-logo.png" class="img-fluid" alt="" title=""></a></div>
 					</div>
 					<div class="col-md-9">
-						<!--Mobile Navigation Toggler For Mobile-->
-						<div class="mobile-nav-toggler for-mobile"><span class="icon flaticon-menu-1"></span></div>
 						<nav class="main-menu navbar-expand-md navbar-light">
-							<div class="navbar-header">
-								<!-- Toggle Button -->      
-								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-									<span class="icon flaticon-menu-1"></span>
-								</button>
-							</div>
-
 							<div class="collapse navbar-collapse clearfix justify-content-end" id="navbar">
 								<ul class="navigation clearfix menu">
 									<li class="menu-item"><a href="index.html">Home</a></li>
@@ -54,7 +45,16 @@
 								</ul>
 							</div>
 						</nav>
-						<!-- Main Menu End-->
+					</div>
+				</div>
+			</div>
+			<div class="container for-mobile">
+				<div class="row align-items-center">
+					<div class="col-logo">
+						<div class="logo"><a href="index.html"><img src="img/casobe-logo.png" class="img-fluid" alt="" title=""></a></div>
+					</div>
+					<div class="col-menu">
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
 					</div>
 				</div>
 			</div>            
@@ -68,7 +68,15 @@
             
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="img/casobe-logo.png" alt="" title=""></a></div>
-                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+                <ul class="navigation clearfix menu">
+					<li class="menu-item"><a href="index.html">Home</a></li>
+					<li class="menu-item"><a href="properties.html">Properties</a></li>
+					<li class="menu-item active"><a href="attractions.html">Attractions</a></li>
+					<li class="menu-item"><a href="privilege-card.html">Privilege Card</a></li> 
+					<li class="menu-item"><a href="news.html">News</a></li>
+					<li class="menu-item"><a href="contact.html">Contact</a></li>
+				</ul>
+				
 				<!--Social Links-->
 				<div class="social-links">
 					<ul class="clearfix">
@@ -618,7 +626,7 @@
 		
 		<!-- Site Development Plan Section -->
 		<section class="page-section section-site-development-plan">
-			<div class="auto-container">
+			<div class="auto-container for-screen">
 				<div class="row clearfix">
 					<div class="col-md-6">
 						<h2 class="heading-title">Site Development Plan</h2>
@@ -665,6 +673,51 @@
 					</div>
 					<div class="col-md-6">
 						<img src="img/maps/map-site-development-plan.jpg" class="img-fluid" style="width: 100%;" alt="Site Development Plan">
+					</div>
+				</div>
+			</div>
+			<div class="auto-container for-mobile">
+				<div class="row clearfix">
+					<div class="col-md-6">
+						<h2 class="heading-title">Site Development Plan</h2>
+						<p class="mb-4">Casobe is a distinctive collection of experience chosen for their rich heritage, enviable central location and personalised guest experience.</p>
+						<img src="img/maps/map-site-development-plan.jpg" class="img-fluid mb-4" style="width: 100%;" alt="Site Development Plan">
+					</div>
+					<div class="col-md-6">
+						<!-- -->
+						<div class="row">
+							<!-- -->
+							<div class="col">
+								<h5 class="mb-2">Attractions / Amenities</h5>
+								<ol type="1" start="1" class="list-site">
+									<li><a href="#">Main Entrance and Guard House</a></li>
+									<li><a href="#">Main Rotonda</a></li>
+									<li><a href="#">Aquaria Waterpark</a></li>
+									<li><a href="#">Jetty Drop-Off</a></li>
+									<li><a href="#">The Sands Restaurant</a></li>
+									<li><a href="#">The Swing Bar</a></li>
+									<li><a href="#">Beach Front</a></li>
+									<li><a href="#">Boardwalk</a></li>
+									<li><a href="#">Lighthouse</a></li>
+									<li><a href="#">The Isle</a></li>
+									<li><a href="#">CaSoBe Circle</a></li>
+									<li><a href="#">Captain Barbozza</a></li>
+									<li><a href="#">The Colony</a></li>
+									<li><a href="#">Residential Beach Club</a></li>
+									<li><a href="#">Harbour Park / 3v3 Basketball</a></li>
+									<li><a href="#">Harbour Walk</a></li>
+									<li><a href="#">Harbour Estates (Resi-Com)</a></li>
+								</ol>	
+								
+								<h5 class="mb-2">Temporary Attractions</h5>
+								<ol type="1" start="1" class="list-site" style="counter-reset: inst 17;">
+									<li><a href="#">Crusoe Cabins*</a></li>
+									<li><a href="#">Cocoons*</a></li>
+									<li><a href="#">Canopy</a></li>
+								</ol>								
+								<a href="#" type="button" class="theme-btn btn-style-dark mt-4"><span class="txt">View Indicative Pricing</span></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -724,8 +777,7 @@
 					
 					<!--big column-->
                     <div class="big-column col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-                        <div class="row clearfix">
-                        
+                        <div class="row clearfix">                        
                             <!--Footer Column-->
 							<div class="footer-column col-lg-12 col-md-12 col-sm-12 mt-5">
                                 <div class="footer-widget links-widget link-address">
@@ -743,27 +795,42 @@
                                             		(+63 2) 8836 5000 (+63 918) 836 5000
                                             	</a>
                                             </li>
+											<li>
+                                            	<a href="mailto:jbtalle@mvpi.ph">
+                                            		<i class="flaticon-email-1"></i>&nbsp;&nbsp; 
+                                            		jbtalle@mvpi.ph
+                                            	</a>
+                                            </li>
+											<li>
+                                            	<a href="mailto:marketingcommunication@landco.ph">
+                                            		<i class="flaticon-email-2"></i>&nbsp;&nbsp; 
+                                            		marketingcommunication@landco.ph
+                                            	</a>
+                                            </li>
                                         </ul>
                                     </div>
 								</div>
-							</div>
-						
+							</div>						
 						</div>
-					</div>
-					
+					</div>					
 				</div>
 			</div>
 
 			<!--Footer Bottom-->
             <div class="footer-bottom clearfix wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div class="pull-left">
-                    <div class="copyright" style="text-align: center !important;">&copy; 2020 Copyright. Casobe. All rights reserved.</div>
+                    <div class="copyright" style="text-align: center !important;">&copy; 2021 Copyright. Casobe. All rights reserved.</div>
                 </div>
                 <div class="pull-right">
-                    <a href="#" target="__blank"><img src="img/logo-original-light.svg" class="logo-footer-bottom" alt=""></a>
+                    <!--a href="#" target="__blank"><img src="img/logo-original-light.svg" class="logo-footer-bottom" alt=""></a-->
+					<a href="#" target="__blank">
+						<img src="img/logo-mvpi-reverse.png" class="logo-footer-bottom" alt="">
+					</a>
+					<a href="#" target="__blank">
+						<img src="img/logo-metropacific-reverse.png" class="logo-footer-bottom" style="height: 20px;" alt="">
+					</a>
                 </div>
             </div>
-
 		</div>
 	</footer>
 

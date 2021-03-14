@@ -28,8 +28,7 @@
 		}
 	}
 	
-	headerStyle();
-	
+	headerStyle();	
 
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){
@@ -63,8 +62,7 @@
 		$('.close-search,.search-popup .overlay-layer').on('click', function() {
 			$('#search-popup').removeClass('popup-visible');
 		});
-	}
-	
+	}	
 	
 	//Mobile Nav Hide Show
 	if($('.mobile-menu').length){
