@@ -1713,6 +1713,7 @@
 	.main-header,
 	.header-style-five .header-lower,
 	.header-style-five .fixed-outer { position: fixed !important; }
+	.header-style-two { border-color: #FFFFFF; }
 	
 	.slider { padding-top: 100px; height: 720px; }
 	.slider h2 { font-size: 40px; }
@@ -1724,8 +1725,13 @@
 	.section-destinations .card { margin-left: 0; width: 100%; padding: 0; }
 	.section-destinations .heading-title-sm { width: 100%; }
 	
-	.page-title { height: auto; }
-	.page-title .hero-content { margin-top: 50px; }
+	.page-title { height: auto; padding: 150px 0 50px; }
+	.page-title .hero-content .hero-title,
+	.page-title .hero-content { margin-top: 0 !important; }
+	.page-section { padding: 50px 0px 25px !important; }
+	
+	.call-to-action-section { padding-left: 20px; padding-right: 20px; }
+	.call-to-action-section .card-amazing-location .image { margin-bottom: 40px; }
 }
 
 /* 480  */
@@ -1750,6 +1756,8 @@
 	.section-destinations .card { margin-left: -100px; width: calc(100% + 100px); padding: 30px; }
 	.section-destinations .heading-title-sm { width: 318px; }
 	
-	.page-title { height: 440px; }
-	.page-title .hero-content { margin-top: 150px; }
+	.page-title { height: 320px; }
+	.page-section { padding: 100px 0px 50px !important; }
+	
+	.call-to-action-section .card-amazing-location .image { margin-bottom: 0; }
 }
