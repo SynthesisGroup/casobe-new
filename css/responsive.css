@@ -1725,13 +1725,15 @@
 	.section-destinations .card { margin-left: 0; width: 100%; padding: 0; }
 	.section-destinations .heading-title-sm { width: 100%; }
 	
-	.page-title { height: auto; padding: 150px 0 50px; }
+	.page-title { min-height: 320px; height: auto; padding: 150px 0 50px; }
 	.page-title .hero-content .hero-title,
 	.page-title .hero-content { margin-top: 0 !important; }
 	.page-section { padding: 50px 0px 25px !important; }
 	
 	.call-to-action-section { padding-left: 20px; padding-right: 20px; }
 	.call-to-action-section .card-amazing-location .image { margin-bottom: 40px; }
+	
+	.list-facts li { margin: 0 20px 20px !important; display: block; }
 }
 
 /* 480  */
@@ -1756,8 +1758,10 @@
 	.section-destinations .card { margin-left: -100px; width: calc(100% + 100px); padding: 30px; }
 	.section-destinations .heading-title-sm { width: 318px; }
 	
-	.page-title { height: 320px; }
+	.page-title { min-height: 320px; }
 	.page-section { padding: 100px 0px 50px !important; }
 	
 	.call-to-action-section .card-amazing-location .image { margin-bottom: 0; }
+	
+	.list-facts li { margin: 0 30px !important; display: inline-block; }
 }

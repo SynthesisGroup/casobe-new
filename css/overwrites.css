@@ -3,15 +3,18 @@ body { overflow-x: hidden; }
 small { font-size: 50%; }
 
 /* Preventives and Overwrites */
-.hidden { display: none; }
+.hidden { display: none !important; }
 .height-100 { height: 100%; }
 .theme-btn { border: 1px solid #000000; }
 .container { z-index: 1; }
 .hero-content { margin-top: 150px; }
 .shaded { background: #F7F7F7; }
 .logo-footer-bottom { margin: 0 10px; }
-.fc-black { color: #000000 !important; }
 .preloader { background-image: url(../img/icons/preloader.svg); }
+.divider { display: block; height: 1px; margin: 20px 0 40px; padding: 0; width: 100%; background-color: #DDDDDD; }
+
+.fc-black { color: #000000 !important; }
+.fc-white { color: #FFFFFF !important; }
 
 .theme-btn { border: 0; }
 .theme-btn:before { border: 1px solid #000000; }
@@ -43,7 +46,7 @@ a.find-out-more:hover { color: #1e92a9; }
 .lh-2  { line-height: 2em; }
 
 /* Overlays */
-.overlay { position: absolute; height: 100%; width: 100%; top: 0; }
+.overlay { position: absolute; height: 100%; width: 100%; top: 0; left: 0; }
 .overlay.overlay-25 { opacity: 0.25; }
 .overlay.overlay-50 { opacity: 0.50; }
 .overlay.overlay-75 { opacity: 0.75; }
@@ -78,8 +81,12 @@ a.find-out-more:hover { color: #1e92a9; }
 .list-site li::before { display: block; text-align: center; position: absolute; }
 
 /* List: Facts Sheet */
-.list-facts li { margin-bottom: 30px; }
-.list-facts svg { height: 40px; width: 40px; float: left; margin-right: 30px; fill: #1e92a9; }
+.list-facts li { /*margin-bottom: 30px;*/ margin: 0 40px; }
+.list-facts h1 { font-size: 64px; }
+.list-facts div { display: flex; margin: 10px 0; }
+.list-facts svg,
+.list-facts h5 { line-height: 32px; margin: 0 5px; }
+.list-facts svg { height: 24px; width: 24px; fill: #1e92a9; }
 
 /* Section: Property */
 .section-property .heading-desc { width: auto; margin-right: 50px; }
@@ -259,3 +266,9 @@ a.find-out-more:hover { color: #1e92a9; }
 
 .fancybox-button--arrow_left:before { position: absolute; content: "←"; transform: translate(-50%, -50%); top: 50%; left: 25px; }
 .fancybox-button--arrow_right:before { position: absolute; content: "→"; transform: translate(-50%, -50%); top: 50%; right: 10px; }
+
+.inner-box a { overflow: hidden; display: block; }
+.inner-box a img { transition: ease all 0.3s; }
+.inner-box a:hover img { transform: scale(1.1); }
+
+.sec-title .inner-column h3.project-heading { font-size: 32px; }
