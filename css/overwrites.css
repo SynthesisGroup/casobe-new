@@ -83,7 +83,7 @@ a.find-out-more:hover { color: #1e92a9; }
 /* List: Facts Sheet */
 .list-facts li { /*margin-bottom: 30px;*/ margin: 0 40px; }
 .list-facts h1 { font-size: 64px; }
-.list-facts div { display: flex; margin: 10px 0; }
+.list-facts div { display: flex; margin: 10px 0; justify-content: center; }
 .list-facts svg,
 .list-facts h5 { line-height: 32px; margin: 0 5px; }
 .list-facts svg { height: 24px; width: 24px; fill: #1e92a9; }
@@ -203,6 +203,13 @@ a.find-out-more:hover { color: #1e92a9; }
 .property-search select.form-control:not([size]):not([multiple]) { height: auto; }
 .property-search .theme-btn { width: 100%; text-align: center; }
 
+/* Property Search: Temporary */
+.property-search { padding: 25px; }
+.property-search .dropdown-toggle { text-align: left; padding: 12px 20px; }
+.property-search .dropdown-menu { width: 100%; border-radius: 0; border: 1px solid #000000; top: -5px !important; padding: 0; }
+.property-search .dropdown-item { padding: 12px 20px; }
+.property-search .dropdown-item:hover { color: #FFFFFF; background-color: #1e92a9; }
+
 /* Navigation Tabs */
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active { background: #000000; color: #ffffff; border-radius: 0; border: 1px solid #000; }
@@ -272,3 +279,4 @@ a.find-out-more:hover { color: #1e92a9; }
 .inner-box a:hover img { transform: scale(1.1); }
 
 .sec-title .inner-column h3.project-heading { font-size: 32px; }
+.anchor-link { position: relative; top: -150px; visibility: hidden; }
