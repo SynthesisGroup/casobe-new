@@ -2,13 +2,6 @@
 body { overflow-x: hidden; }
 small { font-size: 50%; }
 
-@font-face {
-	font-family: 'Font Awesome 5 Pro';
-	src: url("../fonts/fa-solid-900.ttf");
-	font-weight: 400;
-	font-style: normal; 
-}
-
 /* Preventives and Overwrites */
 .hidden { display: none !important; }
 .height-100 { height: 100%; }

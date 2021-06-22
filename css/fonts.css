@@ -35,3 +35,10 @@
   	font-weight: 400;
   	font-style: normal; 
 }
+
+@font-face {
+	font-family: 'Font Awesome 5 Pro';
+	src: url("../fonts/fa-solid-900.ttf");
+	font-weight: 400;
+	font-style: normal; 
+}
