@@ -2,6 +2,13 @@
 body { overflow-x: hidden; }
 small { font-size: 50%; }
 
+@font-face {
+	font-family: 'Font Awesome 5 Pro';
+	src: url("../fonts/fa-solid-900.ttf");
+	font-weight: 400;
+	font-style: normal; 
+}
+
 /* Preventives and Overwrites */
 .hidden { display: none !important; }
 .height-100 { height: 100%; }
@@ -280,3 +287,10 @@ a.find-out-more:hover { color: #1e92a9; }
 
 .sec-title .inner-column h3.project-heading { font-size: 32px; }
 .anchor-link { position: relative; top: -150px; visibility: hidden; }
+
+ul.list-check { position: relative; margin-left: 0 !important; }
+ul.list-check li { padding-left: 30px; position: relative; }
+ul.list-check li::before { position: absolute; left: 0; top: 12px; transform: translateY(-50%); color: #1e92a9; }
+ul.list-check li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; font-weight: 300; }
+
+.table .thead-dark th { background-color: #1e92a9; border: 0; } 
