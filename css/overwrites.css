@@ -122,6 +122,11 @@ a.find-out-more:hover { color: #1e92a9; }
 .section-destinations .flex-row-reverse .flickity-prev-next-button.next { left: auto; right: 10px; }
 .section-destinations .flex-row-reverse .flickity-prev-next-button { top: auto; bottom: 10px; transform: translateY(0); }
 
+.section-destinations .carousel-control { height: 50px; width: 110px; position: absolute; bottom: 20px; left: 20px; }
+.section-destinations .carousel-control .carousel-control-prev,
+.section-destinations .carousel-control .carousel-control-next { height: 50px; width: 50px; background-color: #000000; }
+.section-destinations .flex-row-reverse .carousel-control { left: auto; right: 20px; }
+
 /* Section: Tourism */
 .section-tourism .card { border: 0; border-radius: 0; min-width: 320px; }
 .section-tourism .card-details { position: absolute; bottom: 0; left: 0; background-color: #000000; }
