@@ -1734,6 +1734,7 @@
 	.call-to-action-section .card-amazing-location .image { margin-bottom: 40px; }
 	
 	.list-facts li { margin: 0 20px 20px !important; display: block; }
+	.pt-200 { padding-top: 100px  !important; }
 }
 
 /* 480  */
@@ -1764,4 +1765,6 @@
 	.call-to-action-section .card-amazing-location .image { margin-bottom: 0; }
 	
 	.list-facts li { margin: 0 30px !important; display: inline-block; }
+	
+	.pt-200 { padding-top: 200px  !important; }
 }
