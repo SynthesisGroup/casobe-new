@@ -320,3 +320,13 @@ ul.list-check li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; 
 .section-featured .card-title { margin-top: 15px; }
 .section-featured:before { height: 100%; display: none; background-color: rgba(0,0,0,.7); z-index: -1; }
 .section-featured:before { position: absolute; content: ''; left: 0; top: 0; width: 100%; }
+
+.privilege-club-projects .project-card { position: relative; margin-bottom: 30px; }
+.privilege-club-projects .project-card:before { position: absolute; content: ""; height: 100%; opacity: 0.5; }
+.privilege-club-projects .project-card:before { width: 100%; background-color: #000000; transition: ease all 0.3s; }
+.privilege-club-projects .project-card:hover:before { opacity: 0; }
+.privilege-club-projects .project-name { position: absolute; height: 100%; width: 100%; display: flex; justify-content: center; }
+.privilege-club-projects .project-name { flex-direction: column; text-align: center; transition: ease all 0.3s; }
+.privilege-club-projects .project-name h4 { color: #FFFFFF; margin-top: 10px; }
+.privilege-club-projects .project-name img { height: 80px; max-width: 160px; filter: grayscale(1) brightness(2); }
+.privilege-club-projects .project-card:hover .project-name { opacity: 0; }
