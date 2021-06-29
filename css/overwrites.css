@@ -334,3 +334,17 @@ ul.list-check li::before { content: '\f00c'; font-family: 'Font Awesome 5 Pro'; 
 footer .logo-widget .logo { max-width: 240px; }
 footer .logo-footer-bottom { height: 50px; }
 footer .copyright { margin-top: 10px; }
+
+.list-items { padding-left: 30px; }
+.list-items li { llist-style-position: outside !important; }
+.list-items li { margin-bottom: 10px; padding-left: 10px; }
+.list-items ol { margin-bottom: 30px; padding-left: 10px; margin-left: 10px; }
+
+.list-decimal 	li { list-style-type: decimal !important; }
+.list-alpha 	li { list-style-type: upper-alpha !important; }
+.list-roman 	li { list-style-type: upper-roman!important; }
+
+.accordion-panel { border-bottom: 1px solid #CCCCCC; display: flex; padding-bottom: 10px; }
+.accordion-panel { align-items: center; justify-content: space-between; }
+.accordion-panel i { transition: 0.3s ease all; transform: rotate(0); }
+.accordion-panel.collapsed i { transform: rotate(180deg); }
