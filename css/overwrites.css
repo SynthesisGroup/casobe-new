@@ -348,3 +348,18 @@ footer .copyright { margin-top: 10px; }
 .accordion-panel { align-items: center; justify-content: space-between; }
 .accordion-panel i { transition: 0.3s ease all; transform: rotate(0); }
 .accordion-panel.collapsed i { transform: rotate(180deg); }
+
+.slick-projects { padding: 0 !important; height: auto !important; }
+.slick-projects:before { display: none; }
+.slick-projects .slick-slide { margin: 0px 10px; opacity: 1; }
+.slick-projects .slick-slide img { width: 100%; }
+.slick-projects .slick-prev { left: -50px; }
+.slick-projects .slick-next { right: -50px; }
+.slick-projects .slick-prev,
+.slick-projects .slick-next { width: 50px; height: 50px; background-color: #000000; transition: ease all 0.3s; }
+.slick-projects .slick-prev:hover,
+.slick-projects .slick-next:hover { background-color: #000000; opacity: 0.5; }
+.slick-projects .slick-prev:before { content: '\f104'; }
+.slick-projects .slick-next:before { content: '\f105'; }
+.slick-projects .slick-prev:before,
+.slick-projects .slick-next:before { font-family: "Font Awesome 5 Pro"; font-weight: 900; color: #FFFFFF; }
