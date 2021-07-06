@@ -336,7 +336,7 @@ footer .logo-footer-bottom { height: 50px; }
 footer .copyright { margin-top: 10px; }
 
 .list-items { padding-left: 30px; }
-.list-items li { llist-style-position: outside !important; }
+.list-items li { llist-style-position: outside !important; color: #000000; }
 .list-items li:before { display: none; }
 .list-items li { margin-bottom: 10px; padding-left: 10px !important; }
 .list-items ol { margin-bottom: 30px; padding-left: 10px; margin-left: 10px; }
