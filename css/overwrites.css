@@ -364,3 +364,7 @@ footer .copyright { margin-top: 10px; }
 .slick-projects .slick-next:before { content: '\f105'; }
 .slick-projects .slick-prev:before,
 .slick-projects .slick-next:before { font-family: "Font Awesome 5 Pro"; font-weight: 900; color: #FFFFFF; }
+
+.casobe span { position: relative; }
+.casobe span:before { content: ""; position: absolute; height: 1px; background-color: #000000; }
+.casobe span:before { top: 3px; left: 50%; width: 80%; transform: translate(-50%, 0); }
