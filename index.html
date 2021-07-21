@@ -118,7 +118,9 @@
     	<div class="container height-100">
     		<div class="row height-100 justify-content-center align-items-center">
 		    	<div class="col-md-8 text-center">
-		    		<h2 class="mb-4">Life as it should be</h2>					
+		    		<h2 class="mb-4" data-toggle="tooltip" data-placement="top" title="Life as it should be">
+						Life as it should be
+					</h2>
 					<div class="property-search hidden">
 						<div class="dropdown">
 							<a class="btn btn-secondary dropdown-toggle" type="button" id="property_type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -728,15 +730,16 @@
 
 	<!-- JavaScript -->
 	<script src="js/jquery.js"></script>
+	
+	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/slideshow.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script src="js/scrollbar.js"></script>
-	<!--script src="js/jquery-ui.js"></script-->
 	<!--script src="js/appear.js"></script-->
+	<!--script src="js/jquery-ui.js"></script-->
 	<!--script src="js/flickity.pkgd.min.js"></script-->
-	<!--script src="js/popper.min.js"></script-->
 	<!--script src="js/bootstrap-select.js"></script-->
 	<!--script src="js/jquery.fancybox.js"></script-->
 	<!--script src="js/owl.js"></script-->
@@ -793,6 +796,11 @@
 		$("#modal_beachtowns").on('hidden.bs.modal', function (e) {
 			$("#modal_beachtowns iframe").attr("src", $("#modal_beachtowns iframe").attr("src"));
 		});
-    </script>
+		
+		// Tooltip
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
 </body>
 </html>

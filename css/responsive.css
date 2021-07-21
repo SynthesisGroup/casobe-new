@@ -1750,7 +1750,7 @@
 	.for-mobile { display: none !important; }
 	.for-screen { display: block !important; }
 	
-	.slider { padding-top: 200px; height: 100vh; }
+	.slider { padding-top: 100px; height: 100vh; }
 	.slider h2 { font-size: 50px; }
 	.slider .property-search .dropdown-toggle { margin-bottom: 0; }
 	
