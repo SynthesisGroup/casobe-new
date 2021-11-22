@@ -19,6 +19,8 @@
 	<!--link rel="stylesheet" href="css/flickity.min.css"-->
 	<!--link rel="stylesheet" href="css/bootstrap-select.css"-->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Cookie Consent -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9MLHEV9YRC"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -610,6 +612,8 @@
 		                                            <li><a href="news.html">News</a></li>													
 		                                            <li class="line">|</li>
 		                                            <li><a href="contact.html">Contact</a></li>
+													<li class="line">|</li>
+		                                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
 		                                        </ul>
 		                                    </div>
 										</div>
@@ -738,6 +742,7 @@
 	<script src="js/slideshow.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script src="js/scrollbar.js"></script>
+	<script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script>
 	<!--script src="js/appear.js"></script-->
 	<!--script src="js/jquery-ui.js"></script-->
 	<!--script src="js/flickity.pkgd.min.js"></script-->
@@ -802,6 +807,30 @@
 		$(function () {
 			$('[data-toggle="tooltip"]').tooltip()
 		})
+		
+		// Cookie Consent
+		window.addEventListener("load", function(){
+			window.wpcc.init({
+				"colors":{
+					"popup":{
+						"background":"#222222",
+						"text":"#ffffff",
+						"border":"#f9f9f9"
+					},
+					"button":{
+						"background":"#f9f9f9",
+						"text":"#000000"
+					}
+				},
+				"position":"bottom",
+				"corners":"small",
+				"content":{
+					"message":"This website uses information-gathering tools, such as cookies, web analytics, and other similar technology.<br />By using this website, you consent to the use of these tools.",
+					"href":"http://casobe.landco.ph/privacy-policy.html",
+                    "link":"Read Our Privacy Policy"
+				}
+			})
+		});
 	</script>
 </body>
 </html>
